@@ -267,6 +267,10 @@
 		2E83910B2C050B0F003BCF2A /* SwiftNestedInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8391072C050B0F003BCF2A /* SwiftNestedInputs.swift */; };
 		2E83910D2C050BC4003BCF2A /* runtime_nested_inputs.riv in Resources */ = {isa = PBXBuildFile; fileRef = 2E83910C2C050BC4003BCF2A /* runtime_nested_inputs.riv */; };
 		2E83910E2C050BC4003BCF2A /* runtime_nested_inputs.riv in Resources */ = {isa = PBXBuildFile; fileRef = 2E83910C2C050BC4003BCF2A /* runtime_nested_inputs.riv */; };
+		4B5735D42C9407DB00605EDA /* ReproViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5735D12C9407D500605EDA /* ReproViewController.swift */; };
+		4B5735D52C9407DB00605EDA /* ReproViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5735D12C9407D500605EDA /* ReproViewController.swift */; };
+		4B5735D72C94085B00605EDA /* favorite_animation.riv in Resources */ = {isa = PBXBuildFile; fileRef = 4B5735D62C94085B00605EDA /* favorite_animation.riv */; };
+		4B5735D82C94085B00605EDA /* favorite_animation.riv in Resources */ = {isa = PBXBuildFile; fileRef = 4B5735D62C94085B00605EDA /* favorite_animation.riv */; };
 		83C89ACB29886ECB00044C17 /* StressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C89ACA29886ECB00044C17 /* StressTest.swift */; };
 		83C89ACF2988709400044C17 /* marty.riv in Resources */ = {isa = PBXBuildFile; fileRef = 83C89ACE2988709400044C17 /* marty.riv */; };
 		83C89AD1298870A700044C17 /* paper.riv in Resources */ = {isa = PBXBuildFile; fileRef = 83C89AD0298870A700044C17 /* paper.riv */; };
@@ -430,6 +434,8 @@
 		27108F2C282C96E700A99D81 /* light_switch.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = light_switch.riv; sourceTree = "<group>"; };
 		2E8391072C050B0F003BCF2A /* SwiftNestedInputs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNestedInputs.swift; sourceTree = "<group>"; };
 		2E83910C2C050BC4003BCF2A /* runtime_nested_inputs.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = runtime_nested_inputs.riv; sourceTree = "<group>"; };
+		4B5735D12C9407D500605EDA /* ReproViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproViewController.swift; sourceTree = "<group>"; };
+		4B5735D62C94085B00605EDA /* favorite_animation.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = favorite_animation.riv; sourceTree = "<group>"; };
 		83C89ACA29886ECB00044C17 /* StressTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressTest.swift; sourceTree = "<group>"; };
 		83C89ACE2988709400044C17 /* marty.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = marty.riv; sourceTree = "<group>"; };
 		83C89AD0298870A700044C17 /* paper.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = paper.riv; sourceTree = "<group>"; };
@@ -707,6 +713,8 @@
 		C9C73E9624FC471E00EF9516 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4B5735D62C94085B00605EDA /* favorite_animation.riv */,
+				4B5735D12C9407D500605EDA /* ReproViewController.swift */,
 				042C88822643D6B900E7DBB2 /* Main.storyboard */,
 				C3357CA0280F42EC00F03B6F /* ExamplesMaster.swift */,
 				F8DA7B442AF523A800FF3CBF /* DismissableView.swift */,
@@ -967,6 +975,7 @@
 				040554012B7A2858008F076A /* nothing.riv in Resources */,
 				040554022B7A2858008F076A /* Inter-45562.ttf in Resources */,
 				040554032B7A2858008F076A /* off_road_car_blog.riv in Resources */,
+				4B5735D72C94085B00605EDA /* favorite_animation.riv in Resources */,
 				040554042B7A2858008F076A /* Main.storyboard in Resources */,
 				040554052B7A2858008F076A /* skills.riv in Resources */,
 				040554062B7A2858008F076A /* artboard_animations.riv in Resources */,
@@ -1098,6 +1107,7 @@
 				04D5B06C266A460C004ACA5B /* nothing.riv in Resources */,
 				0453FCBF2B014E2F001185C8 /* Inter-45562.ttf in Resources */,
 				042C88E92644447500E7DBB2 /* off_road_car_blog.riv in Resources */,
+				4B5735D82C94085B00605EDA /* favorite_animation.riv in Resources */,
 				042C88832643D6B900E7DBB2 /* Main.storyboard in Resources */,
 				042C88EA2644447500E7DBB2 /* skills.riv in Resources */,
 				042C88E62644447500E7DBB2 /* artboard_animations.riv in Resources */,
@@ -1197,6 +1207,7 @@
 				040553F02B7A2858008F076A /* SwiftStateMachine.swift in Sources */,
 				040553F12B7A2858008F076A /* DismissableView.swift in Sources */,
 				2E83910A2C050B0F003BCF2A /* SwiftNestedInputs.swift in Sources */,
+				4B5735D42C9407DB00605EDA /* ReproViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1250,6 +1261,7 @@
 				04026DCE27CE3F0F002B3DBF /* SwiftStateMachine.swift in Sources */,
 				F8DA7B452AF523A800FF3CBF /* DismissableView.swift in Sources */,
 				2E83910B2C050B0F003BCF2A /* SwiftNestedInputs.swift in Sources */,
+				4B5735D52C9407DB00605EDA /* ReproViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
